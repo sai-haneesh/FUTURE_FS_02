@@ -1,34 +1,96 @@
-# FUTURE_FS_02 — Client Lead Management System (Mini CRM)
+# Client Lead Management System (Mini CRM)
+
+## Future Interns — Full Stack Web Development Internship
+**Task 2: Client Lead Management System**
+
+## Project Overview
+The Client Lead Management System is a simple web application designed to organize and manage potential customers (leads). It allows users to view lead information, update lead statuses, and manage follow-up notes through a user-friendly interface.
+
+This project was developed as part of Task 2 of the Future Interns Full Stack Web Development Internship.
+
+## Project Objectives
+- Manage customer leads in one place.
+- Track the progress of each lead.
+- Update lead statuses as they progress.
+- Organize notes and follow-up information.
+- Practice frontend and backend web development.
+
+## Technologies Used
+- **HTML5** — Structure of the user interface
+- **CSS3** — Styling and responsive layout
+- **JavaScript** — Frontend interactions
+- **Node.js** — Backend runtime
+- **Express.js** — Backend web framework
+- **JSON** — File-based storage for the starter version
 
 ## Features
-- Express REST API for creating, listing, updating, and deleting leads
-- Search by contact name or email and filter by status
-- Statuses: New, Contacted, Converted
-- Notes and follow-up field
-- Responsive admin-style dashboard
-- Starter JSON data file for local demonstration
+- View and manage customer leads.
+- Track lead statuses, such as New, Contacted, and Converted.
+- Add or update follow-up notes.
+- Simple dashboard interface.
+- Backend API built with Node.js and Express.
+- Organized project structure.
 
-## Requirements
-- Node.js 18+ recommended
-- npm
+## Project Structure
+```text
+FUTURE_FS_02/
+├── data/
+│   └── leads.json
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+├── package.json
+├── server.js
+└── README.md
+```
 
-## Run locally
-1. Open a terminal in this folder.
-2. Run `npm install`.
-3. Run `npm start`.
-4. Open `http://localhost:3000`.
+## How to Run the Project Locally
 
-## API endpoints
-- `GET /api/leads` — list leads
-- `POST /api/leads` — create a lead (`name`, `email`, optional `source`, `status`, `notes`)
-- `PATCH /api/leads/:id` — update `status` and/or `notes`
-- `DELETE /api/leads/:id` — delete a lead
+### Prerequisites
+Install [Node.js](https://nodejs.org/) on your computer.
 
-## Important notes before submission
-- This starter stores records in `data/leads.json`, not MongoDB/MySQL.
-- The UI is a demo admin workspace, not production-secure authentication. Add proper authentication, authorization, validation, and a database if required by your evaluation.
-- Test every CRUD operation and add screenshots to the repository.
-- Do not expose private customer information in a public repository.
+### Installation
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open the terminal in the project directory.
+4. Install the dependencies:
 
-## Suggested repository
-`FUTURE_FS_02`
+   ```bash
+   npm install
+   ```
+
+5. Start the application:
+
+   ```bash
+   npm start
+   ```
+
+6. Open your browser and visit:
+
+   `http://localhost:3000`
+
+## Data Storage
+The starter version uses a JSON file (`data/leads.json`) to store lead information. It does not currently use MongoDB or MySQL.
+
+## What I Learned
+- Building a web interface using HTML, CSS, and JavaScript.
+- Creating backend routes using Node.js and Express.
+- Connecting frontend interactions to backend APIs.
+- Managing application data using JSON storage.
+- Organizing source code and documenting a project with GitHub.
+
+## Current Limitations
+- The starter version uses JSON file storage rather than a production database.
+- Secure administrator authentication is not implemented.
+- The application should be further tested and secured before production use.
+
+## Author
+**Sai Haneesh**  
+B.Tech — Computer Science and Engineering (Artificial Intelligence and Machine Learning)
+
+## Internship
+**Future Interns — Full Stack Web Development**
+
+## 📄 License
+Created for educational and portfolio purposes.

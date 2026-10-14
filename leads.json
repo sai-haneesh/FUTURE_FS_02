@@ -1,0 +1,20 @@
+[
+  {
+    "id": "sample-1001",
+    "name": "Aarav Sharma",
+    "email": "aarav@example.com",
+    "source": "Website",
+    "status": "New",
+    "notes": "Interested in a product demo.",
+    "createdAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": "sample-1002",
+    "name": "Priya Reddy",
+    "email": "priya@example.com",
+    "source": "Referral",
+    "status": "Contacted",
+    "notes": "Follow up next week.",
+    "createdAt": "2026-10-02T10:00:00.000Z"
+  }
+]

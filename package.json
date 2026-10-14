@@ -1,0 +1,8 @@
+{
+  "name": "future-fs-task-02-crm",
+  "version": "1.0.0",
+  "description": "Client Lead Management System mini CRM for Future Interns Task 2",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "dev": "node server.js"},
+  "dependencies": {"express": "^4.21.2"}
+}

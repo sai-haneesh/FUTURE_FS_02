@@ -1,6 +1,5 @@
 # Client Lead Management System (Mini CRM)
 
-## Future Interns — Full Stack Web Development Internship
 **Task 2: Client Lead Management System**
 
 ## Project Overview
